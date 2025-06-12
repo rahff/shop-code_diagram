@@ -1,0 +1,101 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="ZCtv1C_5iBbDzL1T0_Xj">
+    <mxGraphModel dx="1360" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtjjHskOl1n1vlR7F1Wb-1" target="LtjjHskOl1n1vlR7F1Wb-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-1" value="Business User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LtjjHskOl1n1vlR7F1Wb-4" target="LtjjHskOl1n1vlR7F1Wb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-4" value="Signup" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="290" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtjjHskOl1n1vlR7F1Wb-6" target="LtjjHskOl1n1vlR7F1Wb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtjjHskOl1n1vlR7F1Wb-6" target="LtjjHskOl1n1vlR7F1Wb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-6" value="Cognito&lt;div&gt;PostConfirmEvent&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-8" value="Lambda&lt;div&gt;CreateUser&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-10" value="redirect on /" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LtjjHskOl1n1vlR7F1Wb-12" target="LtjjHskOl1n1vlR7F1Wb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-12" value="1. I think that I need&amp;nbsp;&lt;div&gt;a special redirection&amp;nbsp;&lt;/div&gt;&lt;div&gt;to add&amp;nbsp;&lt;/div&gt;&lt;div&gt;custom attributes&lt;/div&gt;&lt;div&gt;to user via form&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="730" y="80" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-14" value="2. custom attributes may be a country&lt;div&gt;it allow a special configuration for Api endpoint (US and EU)&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="870" y="70" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=60;exitDy=110;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LtjjHskOl1n1vlR7F1Wb-14" target="LtjjHskOl1n1vlR7F1Wb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtjjHskOl1n1vlR7F1Wb-17" target="LtjjHskOl1n1vlR7F1Wb-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-17" value="Business User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LtjjHskOl1n1vlR7F1Wb-18" target="LtjjHskOl1n1vlR7F1Wb-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-18" value="Add CashierUser" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="270" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtjjHskOl1n1vlR7F1Wb-20" target="LtjjHskOl1n1vlR7F1Wb-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-20" value="Lambda&lt;div&gt;CreateUser&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="500" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-22" value="Create CognitoUser&lt;div&gt;without PostConfirm&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="500" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-24" value="I think that I need a&amp;nbsp;&lt;div&gt;AccountTable that contains BusinessUser and&lt;/div&gt;&lt;div&gt;CashierUser&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-80" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.563;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LtjjHskOl1n1vlR7F1Wb-24" target="LtjjHskOl1n1vlR7F1Wb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-26" value="I need to put account-ref and user_id in jwt token." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-70" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.563;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=60;exitDy=110;exitPerimeter=0;" edge="1" parent="1" source="LtjjHskOl1n1vlR7F1Wb-26" target="LtjjHskOl1n1vlR7F1Wb-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-28" value="so far, the account_ref is the cognito user id of the Business User, which does not align with the CashierUser existence" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-140" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.575;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=60;exitDy=180;exitPerimeter=0;" edge="1" parent="1" source="LtjjHskOl1n1vlR7F1Wb-28" target="LtjjHskOl1n1vlR7F1Wb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtjjHskOl1n1vlR7F1Wb-30" target="LtjjHskOl1n1vlR7F1Wb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtjjHskOl1n1vlR7F1Wb-30" target="LtjjHskOl1n1vlR7F1Wb-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtjjHskOl1n1vlR7F1Wb-30" value="Both use same&lt;div&gt;Cognito UserPool&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="510" y="340" width="80" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
